@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "uni-pages-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uniPages/UniPagesWebPart.js",
+          "manifest": "./src/webparts/uniPages/UniPagesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UniPagesWebPartStrings": "lib/webparts/uniPages/loc/{locale}.js"
+  }
+}

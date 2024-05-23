@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "uni-pages",
+    "libraryId": "b99bcfda-f83f-4675-a25c-573722ce521c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "uniPages",
+    "solutionShortDescription": "uniPages description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
